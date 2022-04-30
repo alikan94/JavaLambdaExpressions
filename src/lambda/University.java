@@ -1,6 +1,6 @@
 package lambda;
 
-public class Universite {
+public class University {
 
     /*
         TASK :
@@ -16,10 +16,10 @@ public class Universite {
     private int ogrSayisi;
     private int notOrtalamasi;
 
-    public Universite() {
+    public University() {
     }
 
-    public Universite(String universite, String bolum, int ogrSayisi, int notOrtalamasi) {
+    public University(String universite, String bolum, int ogrSayisi, int notOrtalamasi) {
         this.universite = universite;
         this.bolum = bolum;
         this.ogrSayisi = ogrSayisi;
@@ -65,6 +65,6 @@ public class Universite {
                 ", bolum='" + bolum + '\'' +
                 ", ogrSayisi=" + ogrSayisi +
                 ", notOrtalamasi=" + notOrtalamasi +
-                '}';
+                "}\n";
     }
 }
