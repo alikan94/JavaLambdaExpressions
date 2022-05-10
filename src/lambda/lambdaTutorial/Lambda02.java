@@ -1,7 +1,5 @@
 package lambda.lambdaTutorial;
 
-import lambdaTutorial.Lambda01;
-
 import java.util.*;
 
 public class Lambda02 {
